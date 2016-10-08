@@ -40,6 +40,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'factory_girl_rails', '~> 4.0'
 end
 
 # Use unicorn as the app server
