@@ -2,7 +2,7 @@
 # More info at https://github.com/guard/guard#readme
 
 guard :rspec, cmd: 'bundle exec rspec' do
-  watch(//) { "spec" }
+  watch('spec/features') { "spec" }
 end
 
 ## Uncomment and set this to only include directories you want to watch
