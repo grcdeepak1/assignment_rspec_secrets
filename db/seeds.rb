@@ -10,9 +10,9 @@ Secret.delete_all
 User.delete_all
 
 10.times do |i|
-  User.create!( :name => "foo#{i}", 
-                :email => "foo#{i}@bar.com", 
-                :password => "foobar", 
+  User.create!( :name => "foo#{i}",
+                :email => "foo#{i}@bar.com",
+                :password => "foobar",
                 :password_confirmation => "foobar" )
 end
 
